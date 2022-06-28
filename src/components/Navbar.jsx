@@ -13,11 +13,11 @@ function Navbar() {
       <div className="navbar">
         {toggleMenu ? (
           <Link to="#" className="menu-bars">
-            <AiOutlineClose onClick={(e) => setToggleMenu(false)} />
+            <AiOutlineClose onClick={() => setToggleMenu(false)} />
           </Link>
         ) : (
           <Link to="#" className="menu-bars">
-            <FaBars onClick={(e) => setToggleMenu(true)} />
+            <FaBars onClick={() => setToggleMenu(true)} />
           </Link>
         )}
       </div>
