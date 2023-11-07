@@ -27,6 +27,7 @@ function Navbar() {
             {MenuItems.map((item, index) => {
               return (
                 <li className={item.itemName} key={index}>
+                  <h1>Test</h1>
                   <Link to={item.path}>
                     {item.icon}
                     <span>{item.title}</span>
